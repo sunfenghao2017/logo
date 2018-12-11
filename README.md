@@ -19,7 +19,11 @@ install.packages(<source_code_file>, repos=NULL, type="source")
 ```
 ## Requirement
 
-Prerequisite(R-packages): qvalue, ggplot2, doParallel, pscl
+# Prerequisite(R-packages): 
+       qvalue
+       ggplot2
+       doParallel
+       pscl
 
 ## Cheatsheet
 
