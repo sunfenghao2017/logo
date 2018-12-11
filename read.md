@@ -1,1 +1,1 @@
-![image][https://https://github.com/sunfenghao2017/logo/logo.png]
+![text] (https://https://github.com/sunfenghao2017/logo/logo.png)
