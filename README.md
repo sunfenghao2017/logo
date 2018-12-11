@@ -11,12 +11,11 @@ Packages](http://r-pkgs.had.co.nz/) is a book based around this workflow.
 ## Installation
 
 ```r
-# Install devtools from CRAN
-install.packages("devtools")
+#You can download the R package from here and run the command in R:
 
-# Or the development version from GitHub:
-# install.packages("devtools")
-devtools::install_github("r-lib/devtools")
+install.packages(<source_code_file>, repos=NULL, type="source")
+
+#Prerequisite: qvalue, ggplot2, doParallel, pscl
 ```
 
 ## Cheatsheet
