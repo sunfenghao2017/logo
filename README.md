@@ -36,30 +36,30 @@ The function of this program is to test the correlation between gene splicing ex
 ## Usage
 ```r
 SCeQTL:: cal.pvalue <- function(gene, SNV, thread = 8, remove_outlier = TRUE,EM = TRUE, dist = 'negbin', type = 0)
+```
+#Calculatre and return P value of gene-SNV pairs.
 
-Calculatre and return P value of gene-SNV pairs.
+* `thread`: number of threads that are used.
 
-thread: number of threads that are used.
+* `remove_outlier`: whether program should remove samples whose expression level are far away from the others(>median+4*mad)
 
-remove_outlier: whether program should remove samples whose expression level are far away from the others(>median+4*mad)
+* `EM`: use EM or BGFS to optimaize
 
-EM: use EM or BGFS to optimaize
+* `Dist`: distribution assumption, could be negative binomial or Poisson
 
-Dist: distribution assumption, could be negative binomial or Poisson
-
-type: which kind of difference you are interested in. type 0 means non-zero part difference, type 1 means zero ratio difference, type 2 means at least one or non-zero part or zero ratio difference
+* `type`: which kind of difference you are interested in. type 0 means non-zero part difference, type 1 means zero ratio difference, type 2 means at least one or non-zero part or zero ratio difference
 
  
-
+```r
 SCeQTL::checkdist(gene, n=10)
 
-The function samples n gene expressions, draw normalized QQ-plot to compare real gene distribution with fitted gene distribution. The function is used for checking whether non-zero part of the data fit negative binomial distribution well.
-
+#The function samples n gene expressions, draw normalized QQ-plot to compare real gene distribution with fitted gene distribution. The function is used for checking whether non-zero part of the data fit negative binomial distribution well.
+```
  
-
+```r
 SCeQTL::check.sample <- function(sample_gene, sample_SNV, plottype='boxplot', removeZero = TRUE)
 
-Print statistic and visualize one gene-SNV pair.
+#Print statistic and visualize one gene-SNV pair.
 ```
 ### Frequent development tasks:
 
