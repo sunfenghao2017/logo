@@ -1,8 +1,8 @@
-# devtools <img src="https://github.com/sunfenghao2017/logo/blob/master/logo.png" align="right" height = 150/>
+# devtools <img src="https://github.com/sunfenghao2017/logo/blob/master/logo.png" align="right" height =  50 width= 50/>
 
 [![Build Status](https://travis-ci.org/r-lib/devtools.svg?branch=master)](https://travis-ci.org/r-lib/devtools)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/r-lib/SCeQTL?branch=master&svg=true)](https://ci.appveyor.com/project/hadley/SCeQTL)
-[![Coverage Status](https://codecov.io/github/r-lib/devtools/coverage.svg?branch=master)](https://codecov.io/github/r-lib/SCeQTL?branch=master)
+[![Coverage Status](https://codecov.io/github/r-lib/SCeQTL/coverage.svg?branch=master)](https://codecov.io/github/r-lib/SCeQTL?branch=master)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SCeQTL)](https://cran.r-project.org/package=SCeQTL)
 
 The aim of devtools is to make package development easier by providing R
