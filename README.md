@@ -15,8 +15,11 @@ Packages](http://r-pkgs.had.co.nz/) is a book based around this workflow.
 
 install.packages(<source_code_file>, repos=NULL, type="source")
 
-#Prerequisite: qvalue, ggplot2, doParallel, pscl
+
 ```
+## Requirement
+
+Prerequisite(R-packages): qvalue, ggplot2, doParallel, pscl
 
 ## Cheatsheet
 
