@@ -65,9 +65,9 @@ SCeQTL::check.sample <- function(sample_gene, sample_SNV, plottype='boxplot', re
 ### Input format:
 **Rdata** which stored the **gene expression matrix** and **SNV matrix**.
 
-      <u>Gene expression matrix</u> should be named as “gene”, where one row indicate one gene and one column indicate one sample.
+      {Gene expression matrix} should be named as “gene”, where one row indicate one gene and one column indicate one sample.
 
-      <u>SNV matrix</u> should be named as “snp”, where one row indicate one variant and one column indicate one sample.
+      {SNV matrix} should be named as “snp”, where one row indicate one variant and one column indicate one sample.
 
 
 ## Code of conduct
