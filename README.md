@@ -1,4 +1,4 @@
-# devtools <img src="https://github.com/sunfenghao2017/logo/blob/master/logo.png" align="right" height =  50 width= 50/>
+# devtools <img src="https://github.com/sunfenghao2017/logo/blob/master/logo.png" align="right" height =  50 width= 150/>
 
 [![Build Status](https://travis-ci.org/r-lib/devtools.svg?branch=master)](https://travis-ci.org/r-lib/devtools)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/r-lib/SCeQTL?branch=master&svg=true)](https://ci.appveyor.com/project/hadley/SCeQTL)
